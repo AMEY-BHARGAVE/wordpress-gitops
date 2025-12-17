@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: wordpress
-        image: bhargaveamey/wordpress-custom:latest
+        image: bhargaveamey/wordpress-custom:v1
         env:
         - name: WORDPRESS_DB_HOST
           value: mysql.wordpress.svc.cluster.local
