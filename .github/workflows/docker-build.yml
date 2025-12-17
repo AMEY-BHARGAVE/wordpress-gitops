@@ -24,5 +24,5 @@ jobs:
       with:
         context: ./docker
         push: true
-        tags: ${{ secrets.DOCKERHUB_USERNAME }}/wordpress-custom:v1
+        tags: ${{ secrets.DOCKERHUB_USERNAME }}/wordpress-custom:v2
 
